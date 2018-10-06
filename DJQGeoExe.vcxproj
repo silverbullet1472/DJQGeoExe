@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{5DD5AB25-DB60-4538-BDE0-685E50A54C24}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\DJQGeoExe.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\DJQGeoExe.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\DJQGeoExe.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\DJQGeoExe.exe</OutputFile>
+      <StackReserveSize>1048576</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\DJQGeoExe.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\DJQGeoExe.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\DJQGeoExe.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\DJQGeoExe.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ConvexHull7.cpp" />
+    <ClCompile Include="DDAline1.cpp" />
+    <ClCompile Include="DJQGeoExe.cpp" />
+    <ClCompile Include="DJQGeoExeDoc.cpp" />
+    <ClCompile Include="DJQGeoExeView.cpp" />
+    <ClCompile Include="GeoLayer10.cpp" />
+    <ClCompile Include="GeoLayer6.cpp" />
+    <ClCompile Include="GeoLayer8.cpp" />
+    <ClCompile Include="GeoObject10.cpp" />
+    <ClCompile Include="GeoObject8.cpp" />
+    <ClCompile Include="GeoPoint8.cpp" />
+    <ClCompile Include="GeoPolygon10.cpp" />
+    <ClCompile Include="GeoPolyline10.cpp" />
+    <ClCompile Include="GeoPolyline6.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Map1.cpp" />
+    <ClCompile Include="Map10.cpp" />
+    <ClCompile Include="Map11.cpp" />
+    <ClCompile Include="Map12.cpp" />
+    <ClCompile Include="Map2.cpp" />
+    <ClCompile Include="Map3.cpp" />
+    <ClCompile Include="Map4.cpp" />
+    <ClCompile Include="Map5.cpp" />
+    <ClCompile Include="Map6.cpp" />
+    <ClCompile Include="Map7.cpp" />
+    <ClCompile Include="Map8.cpp" />
+    <ClCompile Include="Map9.cpp" />
+    <ClCompile Include="MapProjection8.cpp" />
+    <ClCompile Include="MapProjectionGauss8.cpp" />
+    <ClCompile Include="MapProjectionLambert8.cpp" />
+    <ClCompile Include="MyClipLine5.cpp" />
+    <ClCompile Include="Myline2.cpp" />
+    <ClCompile Include="Mypolygon4.cpp" />
+    <ClCompile Include="SpatialIndex12.cpp" />
+    <ClCompile Include="SpatialIndexArea12.cpp" />
+    <ClCompile Include="SpatialObject12.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DJQGeoExe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConvexHull7.h" />
+    <ClInclude Include="DDAline1.h" />
+    <ClInclude Include="DJQGeoExe.h" />
+    <ClInclude Include="DJQGeoExeDoc.h" />
+    <ClInclude Include="DJQGeoExeView.h" />
+    <ClInclude Include="GeoLayer10.h" />
+    <ClInclude Include="GeoLayer6.h" />
+    <ClInclude Include="GeoLayer8.h" />
+    <ClInclude Include="GeoObject10.h" />
+    <ClInclude Include="GeoObject8.h" />
+    <ClInclude Include="GeoPoint8.h" />
+    <ClInclude Include="GeoPolygon10.h" />
+    <ClInclude Include="GeoPolyline10.h" />
+    <ClInclude Include="GeoPolyline6.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Map1.h" />
+    <ClInclude Include="Map10.h" />
+    <ClInclude Include="Map11.h" />
+    <ClInclude Include="Map12.h" />
+    <ClInclude Include="Map2.h" />
+    <ClInclude Include="Map3.h" />
+    <ClInclude Include="Map4.h" />
+    <ClInclude Include="Map5.h" />
+    <ClInclude Include="Map6.h" />
+    <ClInclude Include="Map7.h" />
+    <ClInclude Include="Map8.h" />
+    <ClInclude Include="Map9.h" />
+    <ClInclude Include="MapProjection8.h" />
+    <ClInclude Include="MapProjectionGauss8.h" />
+    <ClInclude Include="MapProjectionLambert8.h" />
+    <ClInclude Include="MyClipLine5.h" />
+    <ClInclude Include="Myline2.h" />
+    <ClInclude Include="Mypolygon4.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SpatialIndex12.h" />
+    <ClInclude Include="SpatialIndexArea12.h" />
+    <ClInclude Include="SpatialObject12.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DJQGeoExe.ico" />
+    <Image Include="res\DJQGeoExeDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\DJQGeoExe.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="DJQGeoExe.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f042fe4e-876a-4349-a107-fe352a6ca07a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a9c1b563-f793-4a40-8f46-d083e7353300}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{cec529b3-95d0-437c-92ea-16d02943eb31}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DJQGeoExe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DJQGeoExeDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DJQGeoExeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexHull7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDAline1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoLayer6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPolyline6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClipLine5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Myline2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mypolygon4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapProjection8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapProjectionLambert8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoLayer8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObject8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPoint8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoLayer10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObject10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPolyline10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPolygon10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapProjectionGauss8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialIndex12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialIndexArea12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialObject12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DJQGeoExe.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DJQGeoExe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DJQGeoExeDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DJQGeoExeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexHull7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDAline1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoLayer6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPolyline6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClipLine5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Myline2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mypolygon4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapProjection8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapProjectionLambert8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoLayer8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObject8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPoint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoLayer10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObject10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPolyline10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPolygon10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapProjectionGauss8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialIndex12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialIndexArea12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialObject12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DJQGeoExe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DJQGeoExeDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\DJQGeoExe.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
