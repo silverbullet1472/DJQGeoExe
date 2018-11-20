@@ -18,59 +18,81 @@
            ======`-.____`-.___\_____/___.-`____.-'======
                               `=---='
 ========================================================================
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/1.png" width=80%>
 
-CMap1:Ö±ÏßÉú³É
-	ÏÂº¬CDDAline1Àà£¬ÊµÏÖDDAËã·¨»­Ö±Ïß,¶ÁÈ¡LINEGENERATINGTEST£¨READDATA1£©
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/2.png" width=80%>
 
-CMap2:Ö±Ïß¼°×ÖÌåÉú³É
-	ÏÂº¬CMyline2Àà£¬ÊµÏÖÖ±Ïß¼°×ÖÌå»æÖÆ£¬ÖÖ×ÓÌî³ä·¨
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/3.png" width=80%>
 
-CMap3:ÏðÆ¤Ìõ»æÖÆ
-	1.ÏðÆ¤Ìõ»æÖÆ£¨VIEWÖÐÊó±ê¶¯×÷ÉèÖÃ£©
-	2.ÏÂº¬CITY3½á¹¹Ìå£¬¶ÁÈ¡CITIES3Êý¾Ý£¨µã×´£©£¨READDATA3£©
-	3.Í¼ÐÎËõ·Å£¨ONPREPAREDC£©
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/4.png" width=80%>
 
-CMap4:ÇøÓòÌî³ä
-	1.ÏÂº¬CMyPolygon4Àà
-	2.¶ÁÈ¡CHNFILLTEST(READDATA4)£¬ÊµÏÖÊ¡¼¶Çø»®¶ÁÈ¡²¢Ìî³ä
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/5.png" width=80%>
 
-CMap5:ÏðÆ¤Ìõ²Ã¼ô
-	1.ÏÂº¬CMyClipLine5Àà
-	2.VIEWÖÐÊó±êÊÂ¼þ»æÖÆÏðÆ¤Ìõ£¬²¢ÀûÓÃCMyClipLine5¼ì²â²Ã¼ôºó¼¤»î»æÖÆºìÏß
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/6.png" width=80%>
 
-CMap6:ÇøÓò²Ã¼ô
-	1.ÏÂº¬CGeoMap6¡¢CGeoLayer6¡¢CGeoPolyline6Àà
-	2.¶ÁÈ¡clipdata(readdata6)£¬ÊµÏÖÇøÓò²Ã¼ô
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/7.png" width=80%>
 
-CMap7:Í¹¿ÇÉú³É
-	1.ÏÂº¬CConvexHull7Àà,point7½á¹¹Ìå
-	2.¶ÁÈ¡TUKE(readdata7)£¬ÔÚ¶ÁÈ¡¹ý³Ìºó´æÈëÊý¾Ý¡¢Íê³É´¦Àí
-	3.Êý¾Ý´¦Àí¹ý³ÌÖÐÊ¹ÓÃÁË£º
-		vectorÈÝÆ÷¡¢gotoÓï¾ä
-	4.ÁíÍâÒýÈëÁËCVectorÀà£¬´¦ÀíÓÐ¹ØÏòÁ¿µÄ¼ÆËã£¬µ«Êµ¼ÊËã·¨²¢Î´Ê¹ÓÃ
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/8.png" width=80%>
 
-CMap8:µØÍ¼Í¶Ó°
-	1.ÏÂº¬CGeoLayer8£¬CGeoPoint8£¬CGeoObject8£¬CMapProjection8Àà£¬
-	CMapProjection8ÅÉÉúCMapProjectionLambert8µÈÀà
-	2.¶ÁÎÄ¼þº¯Êýreaddata8.
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/9.png" width=80%>
 
-CMap9:¶à±ßÐÎÄÚµãÉú³É
-	1.readdata9¶ÁÈ¡¶à±ßÐÎ¶¥µã
-	2.getPointº¯Êý»ñÈ¡ÄÚµã
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/10.png" width=80%>
 
-CMap10:Éú³ÉÄÚµã²¢Ìî³ä
-	1.ÏÂº¬CGeoLayer10£¬CGeoObject10£¨Ðé»ùÀà£©£¬CGeoPolygon10£¬CGeoPolyline10Àà
-	2.readdata10¶ÁÈ¡Ãæ×´ÐÅÏ¢
-	3.getCenterPointº¯Êý»ñÈ¡ÄÚµã
-	4.Ê¹ÓÃFloodFillº¯ÊýÌî³ä
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/11.png" width=80%>
 
-CMap11:¶à±ßÐÎË³ÄæÊ±ÕëÅÐ¶Ï
-	1.ÏÂº¬CGeoMap11Àà
-	2.readdata11¶ÁÈ¡×ø±êÐÅÏ¢
-	3.clockJudgeº¯ÊýÅÐ¶ÏÊÇ·ñÎªË³Ê±Õë
+<img src="https://github.com/silverbullet1472/DJQGeoExe/blob/master/12.png" width=80%>
+CMap1:ç›´çº¿ç”Ÿæˆ
+	ä¸‹å«CDDAline1ç±»ï¼Œå®žçŽ°DDAç®—æ³•ç”»ç›´çº¿,è¯»å–LINEGENERATINGTESTï¼ˆREADDATA1ï¼‰
 
-CMap12:¿Õ¼äË÷Òý
-	1.ÏÂº¬CGeoMap12¡¢CSpatialIndex¡¢CSpatialIndexAreaÀà
-	2.readdata12¶ÁÈ¡×ø±êÐÅÏ¢£¨1Îª¶ÁÈ¡ÎÄ±¾ÎÄ¼þ¡¢2Îª¶ÁÈ¡¶þ½øÖÆÎÄ¼þ£©
-	3.µã»÷¿Õ¼äË÷Òýtoolbarµ÷ÓÃOnIndexÉú³ÉË÷Òý
+CMap2:ç›´çº¿åŠå­—ä½“ç”Ÿæˆ
+	ä¸‹å«CMyline2ç±»ï¼Œå®žçŽ°ç›´çº¿åŠå­—ä½“ç»˜åˆ¶ï¼Œç§å­å¡«å……æ³•
+
+CMap3:æ©¡çš®æ¡ç»˜åˆ¶
+	1.æ©¡çš®æ¡ç»˜åˆ¶ï¼ˆVIEWä¸­é¼ æ ‡åŠ¨ä½œè®¾ç½®ï¼‰
+	2.ä¸‹å«CITY3ç»“æž„ä½“ï¼Œè¯»å–CITIES3æ•°æ®ï¼ˆç‚¹çŠ¶ï¼‰ï¼ˆREADDATA3ï¼‰
+	3.å›¾å½¢ç¼©æ”¾ï¼ˆONPREPAREDCï¼‰
+
+CMap4:åŒºåŸŸå¡«å……
+	1.ä¸‹å«CMyPolygon4ç±»
+	2.è¯»å–CHNFILLTEST(READDATA4)ï¼Œå®žçŽ°çœçº§åŒºåˆ’è¯»å–å¹¶å¡«å……
+
+CMap5:æ©¡çš®æ¡è£å‰ª
+	1.ä¸‹å«CMyClipLine5ç±»
+	2.VIEWä¸­é¼ æ ‡äº‹ä»¶ç»˜åˆ¶æ©¡çš®æ¡ï¼Œå¹¶åˆ©ç”¨CMyClipLine5æ£€æµ‹è£å‰ªåŽæ¿€æ´»ç»˜åˆ¶çº¢çº¿
+
+CMap6:åŒºåŸŸè£å‰ª
+	1.ä¸‹å«CGeoMap6ã€CGeoLayer6ã€CGeoPolyline6ç±»
+	2.è¯»å–clipdata(readdata6)ï¼Œå®žçŽ°åŒºåŸŸè£å‰ª
+
+CMap7:å‡¸å£³ç”Ÿæˆ
+	1.ä¸‹å«CConvexHull7ç±»,point7ç»“æž„ä½“
+	2.è¯»å–TUKE(readdata7)ï¼Œåœ¨è¯»å–è¿‡ç¨‹åŽå­˜å…¥æ•°æ®ã€å®Œæˆå¤„ç†
+	3.æ•°æ®å¤„ç†è¿‡ç¨‹ä¸­ä½¿ç”¨äº†ï¼š
+		vectorå®¹å™¨ã€gotoè¯­å¥
+	4.å¦å¤–å¼•å…¥äº†CVectorç±»ï¼Œå¤„ç†æœ‰å…³å‘é‡çš„è®¡ç®—ï¼Œä½†å®žé™…ç®—æ³•å¹¶æœªä½¿ç”¨
+
+CMap8:åœ°å›¾æŠ•å½±
+	1.ä¸‹å«CGeoLayer8ï¼ŒCGeoPoint8ï¼ŒCGeoObject8ï¼ŒCMapProjection8ç±»ï¼Œ
+	CMapProjection8æ´¾ç”ŸCMapProjectionLambert8ç­‰ç±»
+	2.è¯»æ–‡ä»¶å‡½æ•°readdata8.
+
+CMap9:å¤šè¾¹å½¢å†…ç‚¹ç”Ÿæˆ
+	1.readdata9è¯»å–å¤šè¾¹å½¢é¡¶ç‚¹
+	2.getPointå‡½æ•°èŽ·å–å†…ç‚¹
+
+CMap10:ç”Ÿæˆå†…ç‚¹å¹¶å¡«å……
+	1.ä¸‹å«CGeoLayer10ï¼ŒCGeoObject10ï¼ˆè™šåŸºç±»ï¼‰ï¼ŒCGeoPolygon10ï¼ŒCGeoPolyline10ç±»
+	2.readdata10è¯»å–é¢çŠ¶ä¿¡æ¯
+	3.getCenterPointå‡½æ•°èŽ·å–å†…ç‚¹
+	4.ä½¿ç”¨FloodFillå‡½æ•°å¡«å……
+
+CMap11:å¤šè¾¹å½¢é¡ºé€†æ—¶é’ˆåˆ¤æ–­
+	1.ä¸‹å«CGeoMap11ç±»
+	2.readdata11è¯»å–åæ ‡ä¿¡æ¯
+	3.clockJudgeå‡½æ•°åˆ¤æ–­æ˜¯å¦ä¸ºé¡ºæ—¶é’ˆ
+
+CMap12:ç©ºé—´ç´¢å¼•
+	1.ä¸‹å«CGeoMap12ã€CSpatialIndexã€CSpatialIndexAreaç±»
+	2.readdata12è¯»å–åæ ‡ä¿¡æ¯ï¼ˆ1ä¸ºè¯»å–æ–‡æœ¬æ–‡ä»¶ã€2ä¸ºè¯»å–äºŒè¿›åˆ¶æ–‡ä»¶ï¼‰
+	3.ç‚¹å‡»ç©ºé—´ç´¢å¼•toolbarè°ƒç”¨OnIndexç”Ÿæˆç´¢å¼•
 /////////////////////////////////////////////////////////////////////////////
